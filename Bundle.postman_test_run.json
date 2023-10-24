@@ -1,0 +1,88 @@
+{
+	"id": "3356b193-79aa-4c9d-a7a2-a6326c453333",
+	"name": "Bundle",
+	"timestamp": "2023-10-23T16:47:41.862Z",
+	"collection_id": "28558022-1a9df6c4-f420-4923-b617-def5d3a12417",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-10-23T16:47:39.733Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1b2b2265-4645-47d6-9016-dd87bf6f2ea0",
+			"name": "Parse CSV file content",
+			"url": "https://csvdemomockappp.bundlewallet.com/invoice/parse",
+			"time": 372,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				372
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6edfa29f-3ba5-4699-a6e6-8c448a9cb21a",
+			"name": "Get Invoice Parsing Result by ID",
+			"url": "https://csvdemomockappp.bundlewallet.com/invoice/bbd4f48d-30c1-4f90-8377-16614975d46c",
+			"time": 255,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				255
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6a0a3f39-12e2-4e96-8984-0a122829c88e",
+			"name": "Get Company details from an Invoice",
+			"url": "https://csvdemomockappp.bundlewallet.com/invoice/bbd4f48d-30c1-4f90-8377-16614975d46c/company?companyName=Google",
+			"time": 235,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				235
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 862,
+	"collection": {
+		"requests": [
+			{
+				"id": "1b2b2265-4645-47d6-9016-dd87bf6f2ea0",
+				"method": "POST"
+			},
+			{
+				"id": "6edfa29f-3ba5-4699-a6e6-8c448a9cb21a",
+				"method": "GET"
+			},
+			{
+				"id": "6a0a3f39-12e2-4e96-8984-0a122829c88e",
+				"method": "GET"
+			}
+		]
+	}
+}
